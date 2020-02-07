@@ -1,3 +1,9 @@
+@mixin sprite ($url, $width, $height, $x, $y) {
+    background: url($url) no-repeat $x $y;
+    width: $width;
+    height: $height;
+}
+
 // @mixin lightlink($color:#ffffff, $hovercolor:$main-theme-color) {
 //     text-decoration: none;
 //     color: $color;

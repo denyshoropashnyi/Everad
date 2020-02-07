@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s ease-in-out;
+}
+
+body {
+    font-family: "Roboto-Regular", sans-serif;
+}
+
+.section__container__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title--dark {
+    font-family: "Roboto-Black", sans-serif;
+    color: $section-title-color--dark;
+
+    &:hover {
+        color: $hover-color--light;
+        text-decoration: underline;
+        text-decoration-color: #a8ca3f;
+    }
+}
+
+ul {
+    list-style-type: none;
+}

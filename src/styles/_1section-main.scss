@@ -1,0 +1,66 @@
+.section-main {
+    margin-bottom: 100px;
+
+    &__header {
+        &__container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-top: 10px;
+        }
+    }
+}
+
+.company-info {
+    &__wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        padding-right: 17px;
+    }
+
+    &__name {
+        font-size: 22px;
+        line-height: 40px;
+    }
+}
+
+.section-main__header {
+    &-list {
+        display: flex;
+
+        justify-content: space-between;
+        width: 648px;
+        margin: 12px 20px 0 96px;
+
+    }
+
+    &-li {
+        display: flex;
+        align-items: center;
+    }
+
+    &__sprite {
+        &--rating {
+            @include sprite('/dist/media/icons/sprite-icons-header.png', 70px, 39px, -55px, -5px);
+        }
+
+        &--recommendation {
+            @include sprite('/dist/media/icons/sprite-icons-header.png', 50px, 41px, -5px, -54px);
+        }
+
+        &--clients {
+            @include sprite('/dist/media/icons/sprite-icons-header.png', 70px, 37px, -5px, -5px);
+        }
+    }
+
+    &-text {
+        color: $section-main__header-text-color;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+}
