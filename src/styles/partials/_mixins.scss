@@ -5,8 +5,6 @@
 }
 
 @mixin underline ($underline-color, $underline-hover-color) {
-    // text-decoration: underline $underline-color;
-    // text-decoration-skip-ink: none;
     border-bottom: 3px solid $underline-color;
 
     &:hover {
