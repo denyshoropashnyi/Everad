@@ -95,7 +95,21 @@ ul {
 }
 
 .section-main {
+  position: relative;
   margin-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+.section-main:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.section-main__header {
+  margin-bottom: 50px;
 }
 
 .section-main__header__container {
@@ -184,6 +198,23 @@ ul {
   margin-left: 10px;
 }
 
+.section-main__main-product__pics {
+  border-radius: 50%;
+  border: 10px solid white;
+  border-right: transparent;
+  border-bottom: transparent;
+  position: relative;
+  width: 571px;
+  height: 572px;
+}
+
+.section-main__main-product__pics-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(/src/assets/pics/section-main-circle-room.png);
+}
+
 .section-main__main-about {
   max-width: 373px;
 }
@@ -212,7 +243,7 @@ ul {
 
 .section-main__main-li:last-child::before {
   content: "";
-  width: 9px;
+  width: 7.5px;
   background: url(/dist/media/icons/ul-arrow.png) no-repeat;
   position: absolute;
   top: 120px;
@@ -247,5 +278,33 @@ ul {
 
 .underline--dark:hover {
   border-bottom-color: #ff6b00;
+}
+
+.product-pic {
+  position: absolute;
+}
+
+.main-product--img-0 {
+  bottom: -150px;
+}
+
+.main-product--img-1 {
+  bottom: -50px;
+}
+
+.main-product--img-2 {
+  bottom: -50px;
+}
+
+.main-product--img-3 {
+  bottom: -50px;
+}
+
+.main-product--img-4 {
+  bottom: -50px;
+}
+
+.main-product--img-5 {
+  bottom: -50px;
 }
 /*# sourceMappingURL=main.css.map */

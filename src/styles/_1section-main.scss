@@ -1,7 +1,21 @@
 .section-main {
+    position: relative;
+    margin-bottom: 100px;
     margin-bottom: 100px;
 
+    &:after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        // background: linear-gradient(to right, #ffffff7a 42%, #f3f9ff5b 42%, #f3f9ff 100%);
+        // background: url(/dist/media/icons/section-main-bg.png) no-repeat;
+    }
+
     &__header {
+        margin-bottom: 50px;
+
         &__container {
             display: flex;
             justify-content: flex-end;
@@ -10,7 +24,6 @@
         }
     }
 
-    // new
     &__main {
         display: flex;
         justify-content: space-between;
@@ -71,7 +84,48 @@
     }
 }
 
+
 .section-main__main {
+    &-product {
+        &__pics {
+            border-radius: 50%;
+            border: 10px solid white;
+            border-right: transparent;
+            border-bottom: transparent;
+            position: relative;
+            width: 571px;
+            height: 572px;
+
+            // &::after {
+            //     content: '';
+            //     position: absolute;
+            //     width: 571px;
+            //     height: 572px;
+            //     // border-radius: 50%;
+            //     border: 10px solid red;
+            //     top: 0;
+            //     border-right: none;
+            //     border-bottom: none;
+            //     border-top: none;
+            //     transform: rotate(90deg);
+            //     margin: -20px;
+            //     border-top-left-radius: 50%;
+            //     border-bottom-left-radius: 50%;
+            // }
+
+            // -webkit-box-shadow: -10px -10px 10px 10px rgba(255, 255, 255, 1);
+            // -moz-box-shadow: -10px -10px 10px 10px rgba(255, 255, 255, 1);
+            // box-shadow: -10px -10px 10px 10px rgba(255, 255, 255, 1);
+
+            &-container {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                background: url(/src/assets/pics/section-main-circle-room.png);
+            }
+        }
+    }
+
     &-about {
         max-width: 373px;
     }
@@ -96,7 +150,7 @@
 
         &:last-child::before {
             content: "";
-            width: 9px;
+            width: 7.5px;
             background: url(/dist/media/icons/ul-arrow.png) no-repeat;
             position: absolute;
             top: 120px;
@@ -125,5 +179,35 @@
 
     &--dark {
         @include underline(#a7c93d, #ff6b00);
+    }
+}
+
+.product-pic {
+    position: absolute;
+}
+
+.main-product--img {
+    &-0 {
+        bottom: -150px;
+    }
+
+    &-1 {
+        bottom: -50px;
+    }
+
+    &-2 {
+        bottom: -50px;
+    }
+
+    &-3 {
+        bottom: -50px;
+    }
+
+    &-4 {
+        bottom: -50px;
+    }
+
+    &-5 {
+        bottom: -50px;
     }
 }
