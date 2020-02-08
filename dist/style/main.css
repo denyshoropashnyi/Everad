@@ -63,15 +63,35 @@ body {
   color: #383334;
 }
 
-.section-title--dark:hover {
-  color: #fa4f01;
-  text-decoration: underline;
-  -webkit-text-decoration-color: #a8ca3f;
-          text-decoration-color: #a8ca3f;
-}
-
 ul {
   list-style-type: none;
+}
+
+.list-circle {
+  height: 46px;
+  width: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #a7c93d;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px 7px #e8edc9;
+  box-shadow: 0px 0px 0px 7px #e8edc9;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+
+.list-circle:hover {
+  background-color: #fa4f01;
 }
 
 .section-main {
@@ -89,6 +109,15 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 10px;
+}
+
+.section-main__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .company-info__wrap {
@@ -153,5 +182,54 @@ ul {
   font-style: italic;
   line-height: 18px;
   margin-left: 10px;
+}
+
+.section-main__main-about {
+  max-width: 373px;
+}
+
+.section-main__main-title {
+  font-size: 44px;
+  max-width: 305px;
+  color: #383334;
+  line-height: 44px;
+  margin-bottom: 36px;
+}
+
+.section-main__main-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.section-main__main-li--text {
+  width: 290px;
+  color: #444444;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.section-main__main-li--text--medium {
+  font-family: "Roboto-Medium";
+}
+
+.underline--light {
+  border-bottom: 3px solid #ff6b00;
+}
+
+.underline--light:hover {
+  border-bottom-color: #a7c93d;
+}
+
+.underline--dark {
+  border-bottom: 3px solid #a7c93d;
+}
+
+.underline--dark:hover {
+  border-bottom-color: #ff6b00;
 }
 /*# sourceMappingURL=main.css.map */

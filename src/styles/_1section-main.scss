@@ -9,6 +9,12 @@
             padding-top: 10px;
         }
     }
+
+    // new
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .company-info {
@@ -62,5 +68,50 @@
         font-style: italic;
         line-height: 18px;
         margin-left: 10px;
+    }
+}
+
+.section-main__main {
+    &-about {
+        max-width: 373px;
+    }
+
+    &-title {
+        font-size: 44px;
+        max-width: 305px;
+        color: #383334;
+        line-height: 44px;
+
+        margin-bottom: 36px;
+    }
+
+    // &-list {
+    // }
+
+    &-li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+
+        &--text {
+            width: 290px;
+            color: #444444;
+            font-size: 20px;
+            line-height: 24px;
+
+            &--medium {
+                font-family: "Roboto-Medium";
+            }
+        }
+    }
+}
+
+.underline {
+    &--light {
+        @include underline(#ff6b00, #a7c93d);
+    }
+
+    &--dark {
+        @include underline(#a7c93d, #ff6b00);
     }
 }
