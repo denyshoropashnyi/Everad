@@ -196,6 +196,10 @@ ul {
   margin-bottom: 36px;
 }
 
+.section-main__main-list {
+  position: relative;
+}
+
 .section-main__main-li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -204,6 +208,18 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 40px;
+}
+
+.section-main__main-li:last-child::before {
+  content: "";
+  width: 9px;
+  background: url(/dist/media/icons/ul-arrow.png) no-repeat;
+  position: absolute;
+  top: 120px;
+  height: 100%;
+  left: 18px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .section-main__main-li--text {

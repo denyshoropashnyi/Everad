@@ -85,13 +85,25 @@
         margin-bottom: 36px;
     }
 
-    // &-list {
-    // }
+    &-list {
+        position: relative;
+    }
 
     &-li {
         display: flex;
         align-items: center;
         margin-bottom: 40px;
+
+        &:last-child::before {
+            content: "";
+            width: 9px;
+            background: url(/dist/media/icons/ul-arrow.png) no-repeat;
+            position: absolute;
+            top: 120px;
+            height: 100%;
+            left: 18px;
+            transform: scale(1.2);
+        }
 
         &--text {
             width: 290px;
