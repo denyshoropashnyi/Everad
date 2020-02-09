@@ -1,16 +1,23 @@
+body {
+    background-color: red;
+}
+
 .section-main {
     position: relative;
     margin-bottom: 100px;
 
-    // &:after {
-    //     position: absolute;
-    //     content: '';
-    //     width: 100%;
-    //     height: 100%;
-    //     top: 0;
-    //     // background: linear-gradient(to right, #ffffff7a 42%, #f3f9ff5b 42%, #f3f9ff 100%);
-    //     // background: url(/dist/media/icons/section-main-bg.png) no-repeat;
-    // }
+    .container__wrapper {
+        position: relative;
+    }
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 232px;
+        position: absolute;
+        background: url(/dist/media/icons/wave-up.png) no-repeat;
+        bottom: -207px;
+    }
 
     &__header {
         margin-bottom: 50px;
@@ -51,7 +58,6 @@
         justify-content: space-between;
         width: 648px;
         margin: 12px 20px 0 96px;
-
     }
 
     &-li {
@@ -66,8 +72,6 @@
         line-height: 18px;
         margin-left: 10px;
     }
-
-
 }
 
 .section-main {
@@ -98,34 +102,9 @@
 .section-main__main {
     &-product {
         &__pics {
-            border-radius: 50%;
-            border: 10px solid white;
-            border-right: transparent;
-            border-bottom: transparent;
             position: relative;
             width: 571px;
             height: 572px;
-
-            // &::after {
-            //     content: '';
-            //     position: absolute;
-            //     width: 571px;
-            //     height: 572px;
-            //     // border-radius: 50%;
-            //     border: 10px solid red;
-            //     top: 0;
-            //     border-right: none;
-            //     border-bottom: none;
-            //     border-top: none;
-            //     transform: rotate(90deg);
-            //     margin: -20px;
-            //     border-top-left-radius: 50%;
-            //     border-bottom-left-radius: 50%;
-            // }
-
-            // -webkit-box-shadow: -10px -10px 10px 10px rgba(255, 255, 255, 1);
-            // -moz-box-shadow: -10px -10px 10px 10px rgba(255, 255, 255, 1);
-            // box-shadow: -10px -10px 10px 10px rgba(255, 255, 255, 1);
 
             &-container {
                 position: relative;
@@ -337,7 +316,6 @@
         text-align: center;
         height: 539px;
         background-color: #ffffff;
-        // padding: 30px 18px 0;
         padding-top: 29px;
 
         &>* {
@@ -376,7 +354,6 @@
         &--highlight {
             display: flex;
             justify-content: center;
-
             font-family: "Roboto-Medium";
             font-size: 22px;
             font-weight: 500;
@@ -416,12 +393,10 @@
 
             &.propose-highlight {
                 width: 106px;
-
                 font-weight: 600;
                 background-color: #ffbf02;
                 border-radius: 5px;
             }
-
         }
     }
 

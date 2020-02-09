@@ -94,9 +94,26 @@ ul {
   background-color: #fa4f01;
 }
 
+body {
+  background-color: red;
+}
+
 .section-main {
   position: relative;
   margin-bottom: 100px;
+}
+
+.section-main .container__wrapper {
+  position: relative;
+}
+
+.section-main::after {
+  content: "";
+  width: 100%;
+  height: 232px;
+  position: absolute;
+  background: url(/dist/media/icons/wave-up.png) no-repeat;
+  bottom: -207px;
 }
 
 .section-main__header {
@@ -200,10 +217,6 @@ ul {
 }
 
 .section-main__main-product__pics {
-  border-radius: 50%;
-  border: 10px solid white;
-  border-right: transparent;
-  border-bottom: transparent;
   position: relative;
   width: 571px;
   height: 572px;
