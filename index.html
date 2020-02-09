@@ -46,13 +46,16 @@
                     <div class="section-main__main-product">
                         <div class="section-main__main-product__pics">
                             <div class="section-main__main-product__pics-container">
+                                <div class="figure-arc"></div>
+
                                 <img class="main-product--img-0 product-pic " src="/src/assets/pics/herb.png"
                                     alt="some herb">
                                 <img class="main-product--img-1 product-pic " src="/src/assets/pics/product-1.png"
                                     alt="product picture-1">
-                                <p>299</p>
-                                <img class="main-product--img-2 product-pic" src="/src/assets/pics/product-2.png"
+                                <p class="product--price product--price-1">299&#8381;</p>
+                                <img class=" main-product--img-2 product-pic" src="/src/assets/pics/product-2.png"
                                     alt="product picture-2">
+                                <p class="product--price product--price-2">299&#8381;</p>
                                 <img class="main-product--img-3 product-pic" src="/src/assets/pics/product-3.png"
                                     alt="product picture-3">
                                 <img class="main-product--img-4 product-pic" src="/src/assets/pics/meds.png"
@@ -65,15 +68,17 @@
 
                     <div class="section-main__main-about">
                         <h1 class="section-main__main-title section-title--dark">Комплексное избавление от грибка
-                            &mdash;
-                            <span class="underline--light">изнутри</span> и <span class="underline--dark">снаружи</span>
+                            &mdash; <br>
+                            <span class="section-main__main-title--small">
+                                <span class="underline--light">изнутри</span> и <span
+                                    class="underline--dark">снаружи</span></span>
                         </h1>
                         <ul class="section-main__main-list">
                             <li class="section-main__main-li">
                                 <div class="section-main__main-li--circle list-circle">2в1</div>
                                 <p class="section-main__main-li--text">Комплекс Микоцин <span
-                                        class="section-main__main-li--text--medium"> <strong>устраняет
-                                            зуд, неприятный запах</strong></span> и возвращает эстетичный вид ногтям</p>
+                                        class="section-main__main-li--text--medium"> <strong>устраняет зуд, неприятный
+                                            запах</strong></span> и возвращает эстетичный вид ногтям</p>
                             </li>
 
                             <li class="section-main__main-li">
@@ -94,7 +99,55 @@
                         </ul>
                     </div>
 
-                    <div class="section-main__main-form">2</div>
+                    <form class="main-form" action="" method="">
+                        <fieldset class="main-form__fieldset">
+                            <legend class="main-form__legend">
+                                <div class="section-main__sprite--car"></div>
+                                <p class="main-form__legend-text">Бесплатно</p>
+                            </legend>
+
+                            <div class="main-form__header">
+                                <p class="main-form__header--normal">
+                                    Успей заказать со скидкой</p>
+                                <p class="main-form__header--highlight">до
+                                    10.09.2018</p>
+                            </div>
+
+                            <div class="main-form__subtitle">
+                                <div class="main-form__propose old-price">
+                                    <p class="main-form__propose--desc">старая цена</p>
+                                    <p class="main-form__propose--price">918&#8381;</p>
+                                </div>
+                                <div class="main-form__propose propose-highlight">
+                                    <p class="main-form__propose--desc">новая цена</p>
+                                    <p class="main-form__propose--price propose-highlight">459&#8381;</p>
+                                </div>
+                            </div>
+
+                            <!-- <div class="main-form__input--wrapper"> -->
+                            <input class="main-form__input input-name" type="text" placeholder="Имя" autofocus
+                                minlength="3" maxlength="13" required>
+                            <input class="main-form__input input-phone" type="tel" placeholder="Телефон" minlength="8"
+                                maxlength="14" pattern="[0-9]+" required>
+
+                            <button class="main-form__btn" type="submit">
+                                <p class="main-form__btn--text-big">Заказать</p>
+                                <p class="main-form__btn--text-small"></p>со скидкой</p>
+                            </button>
+
+                            <div class="main-form__info">
+                                <p class="main-form__info--normal">Осталось <span
+                                        class="main-form__info--highlight">10</span> упаковок со
+                                    скидкой</p>
+                            </div>
+                            <!-- </div> -->
+
+                            <div class="main-form__footer">
+                                <div class="main-form__footer--sec"></div>
+                                <div class="main-form__footer--text">Ваши данные защищены!</div>
+                            </div>
+                        </fieldset>
+                    </form>
                 </div>
             </div>
         </section>
