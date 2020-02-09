@@ -51,7 +51,6 @@
 
 body {
   font-family: "Roboto-Regular", sans-serif;
-  background-color: red;
 }
 
 .section__container__wrapper {
@@ -59,9 +58,84 @@ body {
   margin: 0 auto;
 }
 
+.company-info__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.company-info__logo {
+  height: 56px;
+  width: 81px;
+  background: url(/dist/media/icons/company-logo.png) no-repeat;
+}
+
+.section__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 44px;
+}
+
+.section__header--title {
+  font-size: 48px;
+  margin-bottom: 27px;
+}
+
+.section__header--subtitle {
+  font-family: 'Roboto-Black', sans-serif;
+  font-size: 24px;
+}
+
 .section-title--dark {
   font-family: "Roboto-Black", sans-serif;
   color: #383334;
+}
+
+.section__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section__main--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 320px;
+}
+
+.section__main--container--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 ul {
@@ -97,7 +171,6 @@ ul {
 
 .section-main {
   position: relative;
-  margin-bottom: 100px;
 }
 
 .section-main .container__wrapper {
@@ -137,19 +210,7 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.company-info__wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.company-info__logo {
-  padding-right: 17px;
+  margin-bottom: 200px;
 }
 
 .company-info__name {
@@ -620,5 +681,194 @@ ul {
   background: url(/dist/media/icons/sprite.png) no-repeat -5px -293px;
   width: 19px;
   height: 20px;
+}
+
+.section-dangerous__main--var--container::before {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #ec5b19;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  top: -7px;
+  right: 202px;
+}
+
+.section-dangerous__main--var--container::after {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 185px;
+  border: 11px solid #ec5b19;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(-76deg);
+  -webkit-transform: rotate(-76deg);
+  top: -24px;
+  right: 192px;
+}
+
+.section-dangerous--desc {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+  margin-left: 19px;
+  text-align: left;
+  width: 40%;
+  padding-top: 17px;
+}
+
+.section-dangerous--text {
+  width: 90%;
+  height: 73px;
+  color: #444444;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 49px;
+}
+
+.section-dangerous--text--overline {
+  position: relative;
+}
+
+.section-dangerous--text--overline::before {
+  content: '';
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  left: 1px;
+  bottom: 37px;
+  background: #becbd8;
+}
+
+.figure-arc-small {
+  position: absolute;
+  width: 224px;
+  height: 205px;
+  border: 15px solid #ec5b19;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(-84deg);
+  -webkit-transform: rotate(-84deg);
+  top: -20px;
+  right: 182px;
+}
+
+.container-allergy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 320px;
+  width: 33%;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-allergy::before {
+  content: '1';
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 1;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.container-amputation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 320px;
+  width: 33%;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-amputation::before {
+  content: '2';
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 1;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.container-organ_damage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 320px;
+  width: 33%;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-organ_damage::before {
+  content: '3';
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 28px;
+  z-index: 1;
 }
 /*# sourceMappingURL=main.css.map */

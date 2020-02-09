@@ -1,6 +1,5 @@
 .section-main {
     position: relative;
-    margin-bottom: 100px;
 
     .container__wrapper {
         position: relative;
@@ -29,18 +28,11 @@
     &__main {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 200px;
     }
 }
 
 .company-info {
-    &__wrap {
-        display: flex;
-        align-items: center;
-    }
-
-    &__logo {
-        padding-right: 17px;
-    }
 
     &__name {
         font-size: 22px;

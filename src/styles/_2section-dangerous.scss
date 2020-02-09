@@ -1,0 +1,177 @@
+.section-dangerous {
+    &__main--var {
+
+        &--container {
+            &::before {
+                content: '';
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                background: #ec5b19;
+                border-radius: 50%;
+                border-left-color: transparent;
+                border-bottom-color: transparent;
+                top: -7px;
+                right: 202px;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 180px;
+                height: 185px;
+                border: 11px solid #ec5b19;
+                border-radius: 50%;
+                border-left-color: transparent;
+                border-bottom-color: transparent;
+                transform: rotate(-76deg);
+                -webkit-transform: rotate(-76deg);
+                top: -24px;
+                right: 192px;
+            }
+        }
+    }
+
+    &--desc {
+        font-family: 'Roboto-Regular', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        color: #000000;
+        margin-left: 19px;
+        text-align: left;
+        width: 40%;
+        padding-top: 17px;
+    }
+
+    &--text {
+        width: 90%;
+        height: 73px;
+        color: #444444;
+        font-family: Roboto, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 49px;
+
+        &--overline {
+            position: relative;
+
+            &::before {
+                content: '';
+                width: 50px;
+                height: 3px;
+                position: absolute;
+                left: 1px;
+                bottom: 37px;
+                background: #becbd8;
+            }
+        }
+    }
+}
+
+
+.figure-arc-small {
+    position: absolute;
+    width: 224px;
+    height: 205px;
+    border: 15px solid #ec5b19;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    transform: rotate(-84deg);
+    -webkit-transform: rotate(-84deg);
+    top: -20px;
+    right: 182px;
+}
+
+.container {
+    &-allergy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 320px;
+        width: 33%;
+        position: relative;
+        flex-wrap: wrap;
+
+        &::before {
+            content: '1';
+            position: absolute;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            z-index: 1;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+
+    &-amputation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 320px;
+        width: 33%;
+        position: relative;
+        flex-wrap: wrap;
+
+        &::before {
+            content: '2';
+            position: absolute;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            z-index: 1;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+
+    &-organ_damage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 320px;
+        width: 33%;
+        position: relative;
+        flex-wrap: wrap;
+
+        &::before {
+            content: '3';
+            position: absolute;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 28px;
+            z-index: 1;
+        }
+    }
+}
