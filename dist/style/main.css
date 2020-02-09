@@ -142,33 +142,6 @@ ul {
   list-style-type: none;
 }
 
-.list-circle {
-  height: 46px;
-  width: 46px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #a7c93d;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 0px 7px #e8edc9;
-  box-shadow: 0px 0px 0px 7px #e8edc9;
-  color: #ffffff;
-  font-family: "Roboto";
-  font-size: 20px;
-  font-weight: 700;
-  margin-right: 25px;
-}
-
-.list-circle:hover {
-  background-color: #fa4f01;
-}
-
 .section-main {
   position: relative;
 }
@@ -324,6 +297,33 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 16px;
+}
+
+.section-main__main-li--circle {
+  height: 46px;
+  width: 46px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #a7c93d;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px 7px #e8edc9;
+  box-shadow: 0px 0px 0px 7px #e8edc9;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 25px;
+}
+
+.section-main__main-li--circle:hover {
+  background-color: #fa4f01;
 }
 
 .section-main__main-li:last-child::before {
@@ -681,6 +681,10 @@ ul {
   background: url(/dist/media/icons/sprite.png) no-repeat -5px -293px;
   width: 19px;
   height: 20px;
+}
+
+.section-dangerous {
+  background: #ffffff;
 }
 
 .section-dangerous__main--var--container::before {

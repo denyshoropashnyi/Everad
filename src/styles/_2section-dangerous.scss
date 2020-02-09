@@ -1,6 +1,7 @@
 .section-dangerous {
-    &__main--var {
+    background: $section-bg-color-second;
 
+    &__main--var {
         &--container {
             &::before {
                 content: '';
