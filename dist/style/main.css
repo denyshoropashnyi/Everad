@@ -51,6 +51,7 @@
 
 body {
   font-family: "Roboto-Regular", sans-serif;
+  background-color: red;
 }
 
 .section__container__wrapper {
@@ -92,10 +93,6 @@ ul {
 
 .list-circle:hover {
   background-color: #fa4f01;
-}
-
-body {
-  background-color: red;
 }
 
 .section-main {
