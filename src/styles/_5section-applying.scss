@@ -56,20 +56,20 @@
     margin-bottom: 135px;
 
     &--item {
+        display: -webkit-box;
         display: flex;
+        -webkit-box-align: center;
         align-items: center;
         margin-top: 25px;
-
-        &--wrap {
-            display: flesx;
-        }
     }
 
     &container {
+        display: -webkit-box;
         display: flex;
     }
 
     &--set {
+        display: -webkit-box;
         display: flex;
         position: relative;
     }
@@ -91,8 +91,9 @@
     display: flex;
 
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
     align-items: flex-end;
+    -webkit-box-pack: space-evenly;
     justify-content: space-evenly;
 }
