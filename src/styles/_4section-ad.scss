@@ -36,7 +36,7 @@
                 height: 100px;
                 position: absolute;
                 top: -50px;
-                left: 130px;
+                left: 160px;
                 background: url(/src/assets/pics/meds.png) no-repeat;
                 background-color: #f3f9ff;
                 border: 1px solid red;
@@ -51,8 +51,8 @@
                 width: 100px;
                 height: 100px;
                 position: absolute;
-                top: -70px;
-                left: 531px;
+                top: -55px;
+                left: 562px;
                 background: url(/dist/media/icons/honey-icon.png) no-repeat;
                 background-color: #f3f9ff;
                 border: 1px solid red;
@@ -69,7 +69,7 @@
                 height: 100px;
                 position: absolute;
                 top: -53px;
-                right: 155px;
+                right: 138px;
                 background: url(/dist/media/icons/tabs-2-icon.png) no-repeat;
                 background-color: #f3f9ff;
                 border: 1px solid red;
@@ -89,8 +89,9 @@
         flex-wrap: wrap;
         margin: 0 13px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
+
     }
 }
 
@@ -118,4 +119,3 @@
 
 
 }
-

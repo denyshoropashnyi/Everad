@@ -1324,7 +1324,7 @@ ul {
   height: 100px;
   position: absolute;
   top: -50px;
-  left: 130px;
+  left: 160px;
   background: url(/src/assets/pics/meds.png) no-repeat;
   background-color: #f3f9ff;
   border: 1px solid red;
@@ -1336,8 +1336,8 @@ ul {
   width: 100px;
   height: 100px;
   position: absolute;
-  top: -70px;
-  left: 531px;
+  top: -55px;
+  left: 562px;
   background: url(/dist/media/icons/honey-icon.png) no-repeat;
   background-color: #f3f9ff;
   border: 1px solid red;
@@ -1354,7 +1354,7 @@ ul {
   height: 100px;
   position: absolute;
   top: -53px;
-  right: 155px;
+  right: 138px;
   background: url(/dist/media/icons/tabs-2-icon.png) no-repeat;
   background-color: #f3f9ff;
   border: 1px solid red;
@@ -1375,12 +1375,13 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .section__main__item__title--ad {
