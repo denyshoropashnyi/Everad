@@ -1275,4 +1275,9 @@ ul {
   font-size: 22px;
   z-index: 2;
 }
+
+.section-ad {
+  position: relative;
+  background: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
