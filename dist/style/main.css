@@ -1402,4 +1402,42 @@ ul {
   font-weight: 500;
   color: #000000;
 }
+
+.section__footer--ad {
+  width: 861px;
+  height: 90px;
+  margin: 0 auto;
+  border: 4px solid;
+  border-image-source: linear-gradient(45deg, #fa5001, #63bc1f);
+  border-image-slice: 1;
+  margin: 30px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__footer__text--ad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 27px;
+  font-weight: 500;
+  width: 861px;
+  height: 90px;
+}
+
+.section__footer__text--highlight--ad {
+  color: #fa4f01;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.tesw {
+  border: 10px solid;
+  border-image-source: linear-gradient(45deg, #008f68, #fae042);
+  border-image-slice: 1;
+}
 /*# sourceMappingURL=main.css.map */
