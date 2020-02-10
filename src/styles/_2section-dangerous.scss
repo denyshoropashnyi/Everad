@@ -8,7 +8,8 @@
         height: 250px;
         position: absolute;
         background: url(/dist/media/icons/wave-down.png) no-repeat;
-        bottom: -250px;
+        // bottom: -250px;
+        z-index: -1;
     }
 
     &__main--var {
@@ -164,6 +165,8 @@
         width: 33%;
         position: relative;
         flex-wrap: wrap;
+        z-index: 1;
+
 
         &::before {
             content: '3';

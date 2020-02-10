@@ -7,7 +7,9 @@
 
 body {
     font-family: "Roboto-Regular", sans-serif;
-    background-color: red;
+
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+background-image: linear-gradient(to left, #e9f5f7 0%, #e9f5f7 1%, #f8fdfe 51%, #e9f5f7 100%);
 }
 
 .section__container__wrapper {
@@ -36,14 +38,23 @@ body {
     margin-bottom: 44px;
 
     &--title {
+        font-family: 'Roboto-Black', sans-serif;
+        text-align: center;
+
         font-size: 48px;
         margin-bottom: 27px;
+
+        &--highlight {
+            color: $title-color--highlight;
+        }
+
     }
 
     &--subtitle {
         font-family: 'Roboto-Black', sans-serif;
         font-size: 24px;
     }
+
 }
 
 .section-title--dark {
