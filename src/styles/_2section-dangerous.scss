@@ -1,7 +1,15 @@
 .section-dangerous {
     position: relative;
-
     background: $section-bg-color-second;
+
+    &::after {
+        content: "";
+        width: 100%;
+        height: 250px;
+        position: absolute;
+        background: url(/dist/media/icons/wave-down.png) no-repeat;
+        bottom: -250px;
+    }
 
     &__main--var {
         &--container {
@@ -34,8 +42,6 @@
             }
         }
     }
-
-
 
     &--desc {
         font-family: 'Roboto-Regular', sans-serif;

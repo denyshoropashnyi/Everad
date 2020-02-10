@@ -197,7 +197,7 @@ ul {
   height: 232px;
   position: absolute;
   background: url(/dist/media/icons/wave-up.png) no-repeat;
-  bottom: -207px;
+  bottom: -260px;
 }
 
 .section-main__header {
@@ -727,6 +727,15 @@ ul {
 .section-dangerous {
   position: relative;
   background: #ffffff;
+}
+
+.section-dangerous::after {
+  content: "";
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  background: url(/dist/media/icons/wave-down.png) no-repeat;
+  bottom: -250px;
 }
 
 .section-dangerous__main--var--container::before {

@@ -11,7 +11,7 @@
         height: 232px;
         position: absolute;
         background: url(/dist/media/icons/wave-up.png) no-repeat;
-        bottom: -207px;
+        bottom: -260px;
     }
 
     &__header {
@@ -78,7 +78,6 @@
 
         &--car {
             @include sprite(27px, 15px, -5px, -5px);
-
         }
     }
 }
@@ -150,7 +149,6 @@
             &:hover {
                 background-color: $hover-color--light;
             }
-
         }
 
         &:last-child::before {
@@ -201,7 +199,6 @@
     top: -50px;
     right: -42px;
 }
-
 
 .product-pic {
     position: absolute;
