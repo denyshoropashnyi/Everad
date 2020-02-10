@@ -1,0 +1,98 @@
+.section__container__wrapper--section__applying {
+    margin-top: 131px;
+
+    & hr {
+        width: 20px;
+        height: 3px;
+        background-color: #7bbf1c;
+    }
+}
+
+.section__header--applying {
+    margin-bottom: 135px;
+}
+
+.section__main--applying--pic {
+    &-1 {
+        background: url(/dist/media/icon-tabs-how.png) no-repeat;
+        background-position: center;
+        width: 119px;
+        height: 119px;
+        border: 7px solid $title-color--highlight;
+        border-radius: 50%;
+        background-color: #ffffff;
+        @include circle-shadow;
+        margin-right: 50px;
+
+    }
+
+    &-2 {
+        background: url(/dist/media/icon-water-how.png) no-repeat;
+        background-position: center;
+        width: 119px;
+        height: 119px;
+        border: 7px solid $title-color--highlight;
+        border-radius: 50%;
+        background-color: #ffffff;
+        @include circle-shadow;
+        margin-right: 50px;
+
+    }
+
+    &-3 {
+        background: url(/dist/media/icon-tine-how.png) no-repeat;
+        background-position: center;
+        width: 119px;
+        height: 119px;
+        border: 7px solid $title-color--highlight;
+        border-radius: 50%;
+        background-color: #ffffff;
+        @include circle-shadow;
+        margin-right: 50px;
+    }
+}
+
+.section__main--applying {
+    margin-bottom: 135px;
+
+    &--item {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+
+        &--wrap {
+            display: flesx;
+        }
+    }
+
+    &container {
+        display: flex;
+    }
+
+    &--set {
+        display: flex;
+        position: relative;
+    }
+
+    &--water {
+        height: 380px;
+        position: absolute;
+        left: 262px;
+        top: -122px;
+    }
+
+    &--tabs {
+        z-index: 1;
+    }
+}
+
+.section__main--applying--container {
+
+    display: flex;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}

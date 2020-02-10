@@ -1440,4 +1440,127 @@ ul {
   border-image-source: linear-gradient(45deg, #008f68, #fae042);
   border-image-slice: 1;
 }
+
+.section__container__wrapper--section__applying {
+  margin-top: 131px;
+}
+
+.section__container__wrapper--section__applying hr {
+  width: 20px;
+  height: 3px;
+  background-color: #7bbf1c;
+}
+
+.section__header--applying {
+  margin-bottom: 135px;
+}
+
+.section__main--applying--pic-1 {
+  background: url(/dist/media/icon-tabs-how.png) no-repeat;
+  background-position: center;
+  width: 119px;
+  height: 119px;
+  border: 7px solid #fa4f01;
+  border-radius: 50%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 2px 8px rgba(229, 208, 185, 0.5);
+  box-shadow: 0px 0px 2px 8px rgba(229, 208, 185, 0.5);
+  margin-right: 50px;
+}
+
+.section__main--applying--pic-1:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 20px rgba(229, 208, 185, 0.5);
+  box-shadow: inset 0px 0px 0px 20px rgba(229, 208, 185, 0.5);
+}
+
+.section__main--applying--pic-2 {
+  background: url(/dist/media/icon-water-how.png) no-repeat;
+  background-position: center;
+  width: 119px;
+  height: 119px;
+  border: 7px solid #fa4f01;
+  border-radius: 50%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 2px 8px rgba(229, 208, 185, 0.5);
+  box-shadow: 0px 0px 2px 8px rgba(229, 208, 185, 0.5);
+  margin-right: 50px;
+}
+
+.section__main--applying--pic-2:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 20px rgba(229, 208, 185, 0.5);
+  box-shadow: inset 0px 0px 0px 20px rgba(229, 208, 185, 0.5);
+}
+
+.section__main--applying--pic-3 {
+  background: url(/dist/media/icon-tine-how.png) no-repeat;
+  background-position: center;
+  width: 119px;
+  height: 119px;
+  border: 7px solid #fa4f01;
+  border-radius: 50%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 2px 8px rgba(229, 208, 185, 0.5);
+  box-shadow: 0px 0px 2px 8px rgba(229, 208, 185, 0.5);
+  margin-right: 50px;
+}
+
+.section__main--applying--pic-3:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 20px rgba(229, 208, 185, 0.5);
+  box-shadow: inset 0px 0px 0px 20px rgba(229, 208, 185, 0.5);
+}
+
+.section__main--applying {
+  margin-bottom: 135px;
+}
+
+.section__main--applying--item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.section__main--applying--item--wrap {
+  display: flesx;
+}
+
+.section__main--applyingcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section__main--applying--set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.section__main--applying--water {
+  height: 380px;
+  position: absolute;
+  left: 262px;
+  top: -122px;
+}
+
+.section__main--applying--tabs {
+  z-index: 1;
+}
+
+.section__main--applying--container {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
 /*# sourceMappingURL=main.css.map */
