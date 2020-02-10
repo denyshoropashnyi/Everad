@@ -1,4 +1,121 @@
-.section-ad {
-    position: relative;
-    background: $section-bg-color-second;
+.section__ad {
+    margin-top: 143px;
+    // background: $section-bg-color-second;
+
+    .section__header {
+        &--title--ad {
+            font-size: 47px;
+            max-width: 827px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        &--subtitle--ad {
+            font-family: "Roboto-Regular";
+            font-size: 23px;
+            color: #444444;
+            text-align: center;
+            margin-bottom: 107px;
+        }
+    }
 }
+
+.section__main {
+    &__container--ad {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+
+        div:nth-child(1) {
+
+            &::after {
+                content: "";
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: -50px;
+                left: 130px;
+                background: url(/src/assets/pics/meds.png) no-repeat;
+                background-color: #f3f9ff;
+                border: 1px solid red;
+                border-radius: 50%;
+            }
+        }
+
+        div:nth-child(2) {
+
+            &::after {
+                content: "";
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: -70px;
+                left: 531px;
+                background: url(/dist/media/icons/honey-icon.png) no-repeat;
+                background-color: #f3f9ff;
+                border: 1px solid red;
+                border-radius: 50%;
+            }
+        }
+
+        div:nth-child(3) {
+            border: 4px solid #62bd1f;
+
+            &::after {
+                content: "";
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: -53px;
+                right: 155px;
+                background: url(/dist/media/icons/tabs-2-icon.png) no-repeat;
+                background-color: #f3f9ff;
+                border: 1px solid red;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &__item--ad {
+        border: 4px solid #f64d01;
+        border-radius: 4px;
+        background-color: #ffffff;
+        text-align: center;
+        height: 307px;
+        max-width: 370px;
+        min-width: 320px;
+        flex-wrap: wrap;
+        margin: 0 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.section__main__item {
+    &__title--ad {
+        font-family: "Roboto-Regular", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #000000;
+    }
+
+    &__text--ad {
+        font-family: "Roboto-Regular", sans-serif;
+        font-size: 18px;
+        color: #444444;
+    }
+
+    &__text--bold--ad {
+        font-family: "Roboto-Medium", sans-serif;
+        font-weight: 500;
+        color: #000000;
+
+
+    }
+
+
+}
+

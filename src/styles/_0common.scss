@@ -8,8 +8,8 @@
 body {
     font-family: "Roboto-Regular", sans-serif;
 
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-background-image: linear-gradient(to left, #e9f5f7 0%, #e9f5f7 1%, #f8fdfe 51%, #e9f5f7 100%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    background-image: linear-gradient(to left, #e9f5f7 0%, #e9f5f7 1%, #f8fdfe 51%, #e9f5f7 100%);
 }
 
 .section__container__wrapper {
@@ -28,6 +28,12 @@ background-image: linear-gradient(to left, #e9f5f7 0%, #e9f5f7 1%, #f8fdfe 51%, 
         height: 56px;
         width: 81px;
         background: url(/dist/media/icons/company-logo.png) no-repeat;
+
+        &-half {
+            height: 54px;
+            width: 47px;
+            background: url(/dist/media/icons/company-logo.png) no-repeat;
+        }
     }
 }
 
