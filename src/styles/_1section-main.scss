@@ -207,7 +207,7 @@
     position: absolute;
     width: 660px;
     height: 660px;
-    border: 35px solid #000;
+    border: 35px solid #ffffff;
     border-radius: 50%;
     border-left-color: transparent;
     transform: rotate(-188deg);
@@ -359,6 +359,7 @@
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
+        background: #F2FAFB;
 
         &-text {
             line-height: 18px;
