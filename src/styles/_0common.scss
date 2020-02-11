@@ -11,6 +11,8 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     background-image: -webkit-gradient(linear, right top, left top, from(#e9f5f7), color-stop(1%, #e9f5f7), color-stop(51%, #f8fdfe), to(#e9f5f7));
     background-image: linear-gradient(to left, #e9f5f7 0%, #e9f5f7 1%, #f8fdfe 51%, #e9f5f7 100%);
+
+
 }
 
 .section__container__wrapper {
@@ -50,6 +52,7 @@ body {
     -webkit-box-align: center;
     align-items: center;
     margin-bottom: 44px;
+
 
     &--title {
         font-family: 'Roboto-Black', sans-serif;

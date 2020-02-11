@@ -41,6 +41,10 @@
   font-style: normal;
 }
 
+@media (min-width: 900px) {
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   padding: 0;

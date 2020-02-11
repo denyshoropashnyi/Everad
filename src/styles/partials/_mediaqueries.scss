@@ -1,0 +1,14 @@
+ @include for-desktop-up {}
+
+ @include for-tablet-landscape-up {
+     margin: 0 auto;
+ }
+
+
+
+ //  .section-main::after {
+ //      background: green;
+ //      color: blue;
+ //      z-index: 50;
+ //      ;
+ //  }
