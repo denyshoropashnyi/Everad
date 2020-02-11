@@ -87,13 +87,27 @@
 }
 
 .section__main--applying--container {
-
-    display: flex;
-
     display: -webkit-box;
     display: flex;
+    position: relative;
     -webkit-box-align: end;
     align-items: flex-end;
     -webkit-box-pack: space-evenly;
     justify-content: space-evenly;
+
+    &::after {
+        content: "";
+        width: 80%;
+        height: 94px;
+        top: 66px;
+        left: 385px;
+        background: url(/dist/media/icons/glass-symbol-icon.png) no-repeat;
+        background-color: #f3f9ff;
+        border-radius: 50%;
+        width: 100px;
+        position: absolute;
+        width: 192px;
+        opacity: .26;
+    }
+
 }

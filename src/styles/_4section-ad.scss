@@ -1,6 +1,6 @@
 .section__ad {
     margin-top: 143px;
-    // background: $section-bg-color-second;
+    background: #ffffff;
 
     .section__header {
         &--title--ad {
@@ -145,6 +145,7 @@
             font-weight: 500;
             width: 861px;
             height: 90px;
+            justify-content: center;
         }
 
         &--highlight--ad {
