@@ -1,14 +1,28 @@
- @include for-desktop-up {}
+@include for-desktop-up {
+    .section__container__wrapper {
+        max-width: 1170px;
+        // overflow-x: hidden;
+    }
 
- @include for-tablet-landscape-up {
-     margin: 0 auto;
- }
+    .section-main__main-product__pics-container {
+        left: 0;
+    }
+}
+
+@include for-big-desktop-up {
+    .section__container__wrapper {
+        max-width: 1200px;
+    }
+}
 
 
 
- //  .section-main::after {
- //      background: green;
- //      color: blue;
- //      z-index: 50;
- //      ;
- //  }
+
+
+
+//  .section-main::after {
+//      background: green;
+//      color: blue;dd
+//      z-index: 50;
+//      ;
+//  }
