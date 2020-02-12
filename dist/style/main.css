@@ -44,9 +44,16 @@
 @media (min-width: 1200px) {
   .section__container__wrapper {
     max-width: 1170px;
+    overflow-x: hidden;
   }
   .section-main__main-product__pics-container {
     left: 0;
+  }
+  .section__header {
+    margin-top: 80px;
+  }
+  .company-info__wrap {
+    z-index: 1;
   }
 }
 
@@ -1592,5 +1599,27 @@ ul {
   position: absolute;
   width: 192px;
   opacity: .26;
+}
+
+@media (min-width: 1200px) {
+  .section__container__wrapper {
+    max-width: 1170px;
+    overflow-x: hidden;
+  }
+  .section-main__main-product__pics-container {
+    left: 0;
+  }
+  .section__header {
+    margin-top: 80px;
+  }
+  .company-info__wrap {
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1800px) {
+  .section__container__wrapper {
+    max-width: 1200px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
