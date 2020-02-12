@@ -1,3 +1,84 @@
+@include for-tablet-landscape-up {
+    .section__container__wrapper {
+        max-width: 870px;
+        // overflow-x: hidden;
+    }
+
+    .section-main__main {
+        display: none;
+    }
+
+    .general--wrapper {
+        padding: 0 30%;
+    }
+
+
+    .section__main--container--item {
+        flex-direction: column;
+    }
+
+    .section__header--subtitle {
+        margin-left: 5%;
+    }
+
+    .section__main--container--item {
+        align-items: center;
+    }
+
+    .section-dangerous__main--var--container::after {
+        left: 3%;
+    }
+
+    .section-dangerous__main--var--container::before {
+        right: 116px;
+    }
+
+    .section-dangerous__main--var--container {
+        flex-wrap: nowrap;
+        width: 100%;
+        padding-left: 5%;
+        margin-top: 50px;
+
+        &::after {
+            top: -27px;
+        }
+    }
+
+    .wrap-all-section__main--container--item--arguments {
+        flex-direction: column;
+    }
+
+    .section__main--container--header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section__main--container--body {
+        height: auto;
+    }
+
+    .section__footer--arguments {
+        height: auto;
+    }
+
+    .section__main__container--ad {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section__main__container--ad div:nth-child(n)::after {
+        display: none;
+    }
+
+    .section__main__item--ad {
+        margin: 13px;
+    }
+}
+
+
+
+
 @include for-desktop-up {
     .section__container__wrapper {
         max-width: 1170px;
