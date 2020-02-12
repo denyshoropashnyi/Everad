@@ -41,15 +41,54 @@
   font-style: normal;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .section__container__wrapper {
-    max-width: 870px;
+    max-width: 570px;
+    overflow-x: hidden;
+  }
+  .section__footer--ad {
+    width: auto;
+  }
+  .section__footer__text--ad {
+    font-size: 17px;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-left: 10px;
+  }
+  .section__container__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section__footer::after {
+    top: -43px;
+  }
+  .section__main--applying--tabs {
+    width: 300px;
+  }
+  .section__main--applying--water {
+    height: 300px;
+    position: absolute;
+    left: -71px;
+    bottom: 125px;
+    right: 0;
+  }
+}
+
+@media (max-width: 1190px) {
+  .section__container__wrapper {
+    max-width: 1170px;
   }
   .section-main__main {
     display: none;
   }
+  .section__main--container--item {
+    width: auto;
+  }
   .general--wrapper {
-    padding: 0 30%;
+    padding: 0 30;
   }
   .section__main--container--item {
     -webkit-box-orient: vertical;
@@ -1679,15 +1718,54 @@ ul {
   opacity: .26;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .section__container__wrapper {
-    max-width: 870px;
+    max-width: 570px;
+    overflow-x: hidden;
+  }
+  .section__footer--ad {
+    width: auto;
+  }
+  .section__footer__text--ad {
+    font-size: 17px;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-left: 10px;
+  }
+  .section__container__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section__footer::after {
+    top: -43px;
+  }
+  .section__main--applying--tabs {
+    width: 300px;
+  }
+  .section__main--applying--water {
+    height: 300px;
+    position: absolute;
+    left: -71px;
+    bottom: 125px;
+    right: 0;
+  }
+}
+
+@media (max-width: 1190px) {
+  .section__container__wrapper {
+    max-width: 1170px;
   }
   .section-main__main {
     display: none;
   }
+  .section__main--container--item {
+    width: auto;
+  }
   .general--wrapper {
-    padding: 0 30%;
+    padding: 0 30;
   }
   .section__main--container--item {
     -webkit-box-orient: vertical;

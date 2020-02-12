@@ -1,6 +1,44 @@
-@include for-tablet-landscape-up {
+@include for-phone-up {
     .section__container__wrapper {
-        max-width: 870px;
+        max-width: 570px;
+        overflow-x: hidden;
+
+    }
+
+    .section__footer--ad {
+        width: auto;
+    }
+
+    .section__footer__text--ad {
+        font-size: 17px;
+        justify-content: left;
+        margin-left: 10px;
+    }
+
+    .section__container__wrapper {
+        flex-direction: column;
+    }
+
+    .section__footer::after {
+        top: -43px;
+    }
+
+    .section__main--applying--tabs {
+        width: 300px;
+    }
+
+    .section__main--applying--water {
+        height: 300px;
+        position: absolute;
+        left: -71px;
+        bottom: 125px;
+        right: 0;
+    }
+}
+
+@include for-tablet-up {
+    .section__container__wrapper {
+        max-width: 1170px;
         // overflow-x: hidden;
     }
 
@@ -8,8 +46,12 @@
         display: none;
     }
 
+    .section__main--container--item {
+        width: auto;
+    }
+
     .general--wrapper {
-        padding: 0 30%;
+        padding: 0 30
     }
 
 
