@@ -1,12 +1,29 @@
 @include for-phone-up {
     .section__container__wrapper {
-        max-width: 570px;
-        overflow-x: hidden;
+        max-width: 768px;
+        // overflow-x: hidden;
+    }
 
+    .section-main__header__container {
+        flex-direction: column;
+    }
+
+    // .section-main__header-list {}
+
+    .section-main__header-li {
+        flex-direction: column;
+    }
+
+    .section-main__header-text {
+        margin-left: 0;
     }
 
     .section__footer--ad {
         width: auto;
+    }
+
+    .section__main--applying--set {
+        margin-bottom: 50px;
     }
 
     .section__footer__text--ad {
@@ -27,12 +44,24 @@
         width: 300px;
     }
 
+    .section__main--applying--container {
+        align-items: center;
+    }
+
     .section__main--applying--water {
-        height: 300px;
+        height: 400px;
         position: absolute;
         left: -71px;
         bottom: 125px;
         right: 0;
+    }
+
+    .section__main--applying {
+        margin: 10px;
+    }
+
+    .section-dangerous__main--var--container::after {
+        left: 2%;
     }
 }
 
