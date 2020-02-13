@@ -6,7 +6,7 @@
         width: 100%;
         height: 232px;
         position: absolute;
-        background: url(dist/media/icons/wave-up.png) no-repeat;
+        background: url(../../dist/media/icons/wave-up.png) no-repeat;
         bottom: -1730px;
         z-index: -1;
     }
@@ -76,7 +76,7 @@
                     position: absolute;
                     top: 197px;
                     left: 20px;
-                    background: url(dist/media/icons/arguments-figure.png) no-repeat;
+                    background: url(../../dist/media/icons/arguments-figure.png) no-repeat;
                     background-color: #ffffff;
                 }
 
@@ -87,7 +87,7 @@
                     position: absolute;
                     top: -50px;
                     left: 130px;
-                    background: url(dist/media/icons/sprite.png) 10px -305px no-repeat;
+                    background: url(../../dist/media/icons/sprite.png) 10px -305px no-repeat;
                     background-color: #f3f9ff;
                     border-radius: 50%;
                     width: 100px;
@@ -121,7 +121,7 @@
                     position: absolute;
                     top: 197px;
                     left: 20px;
-                    background: url(dist/media/icons/arguments-figure.png) no-repeat;
+                    background: url(../../dist/media/icons/arguments-figure.png) no-repeat;
                 }
 
                 &::after {
@@ -131,7 +131,7 @@
                     position: absolute;
                     top: -50px;
                     left: 130px;
-                    background: url(dist/media/icons/sprite.png) 22px -111px no-repeat;
+                    background: url(../../dist/media/icons/sprite.png) 22px -111px no-repeat;
                     background-color: #f3f9ff;
                     border-radius: 50%;
                     width: 100px;
@@ -165,7 +165,7 @@
                     position: absolute;
                     top: 197px;
                     left: 20px;
-                    background: url(dist/media/icons/arguments-figure.png) no-repeat;
+                    background: url(../../dist/media/icons/arguments-figure.png) no-repeat;
                 }
 
                 &::after {
@@ -175,7 +175,7 @@
                     position: absolute;
                     top: -50px;
                     left: 130px;
-                    background: url(dist/media/icons/sprite.png) 20px -450px no-repeat;
+                    background: url(../../dist/media/icons/sprite.png) 20px -450px no-repeat;
                     background-color: #f3f9ff;
                     border-radius: 50%;
                     width: 100px;
@@ -299,7 +299,7 @@
             position: absolute;
             top: -30px;
             left: 50%;
-            background: url(dist/media/icons/sign.png.png) no-repeat;
+            background: url(../../dist/media/icons/sign.png) no-repeat;
             background-color: #f4d3bb;
             z-index: 1;
         }

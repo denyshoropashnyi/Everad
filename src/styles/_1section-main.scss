@@ -10,7 +10,7 @@
         width: 100%;
         height: 232px;
         position: absolute;
-        background: url(dist/media/icons/wave-up.png) no-repeat;
+        background: url(../../dist/media/icons/wave-up.png) no-repeat;
         bottom: -260px;
     }
 
@@ -108,7 +108,7 @@
                 bottom: -22px;
                 width: 100%;
                 height: 100%;
-                background: url(src/assets/pics/section-main-circle-room.png);
+                background: url(../../src/assets/pics/section-main-circle-room.png);
             }
         }
     }
@@ -170,7 +170,7 @@
         &:last-child::before {
             content: "";
             width: 7.5px;
-            background: url(dist/media/icons/ul-arrow.png) no-repeat;
+            background: url(../../dist/media/icons/ul-arrow.png) no-repeat;
             position: absolute;
             top: 80px;
             height: 82%;
@@ -402,7 +402,7 @@
             position: absolute;
             top: 35px;
             right: -67px;
-            background: url(dist/media/icons/rounded-arrow.png) no-repeat;
+            background: url(../../dist/media/icons/rounded-arrow.png) no-repeat;
         }
     }
 
