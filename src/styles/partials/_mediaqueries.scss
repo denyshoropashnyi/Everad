@@ -287,6 +287,7 @@
     }
 
     .section-main__main {
+        display: -webkit-box;
         display: flex;
         flex-wrap: wrap;
 
@@ -394,8 +395,10 @@
     }
 
     .section__main--container--item {
+        display: -webkit-box;
         display: flex;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
         justify-content: center;
     }
 
@@ -404,6 +407,7 @@
     }
 
     .section-main__main {
+        -webkit-box-pack: center;
         justify-content: center;
     }
 
