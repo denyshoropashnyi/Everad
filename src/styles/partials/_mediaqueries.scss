@@ -69,6 +69,10 @@
         flex-direction: column;
     }
 
+    .section__main--container--item {
+        margin-left: 3px;
+    }
+
     .section-main__header-list {
         display: -webkit-box;
         display: flex;
@@ -77,12 +81,26 @@
         flex-direction: column;
     }
 
-    .section-main__header-li {
+    .section__footer::after {
+        right: 121px;
+        top: -70px;
+
+    }
+
+    .section__footer::after .section-main__header-li {
         margin: 10px 0;
     }
 
     .main-form {
         width: 100%;
+    }
+
+    .section__footer__text--ad {
+        font-size: 18px;
+    }
+
+    .main-form__subtitle::before {
+        right: -38px;
     }
 
     .main-form__fieldset {
@@ -367,7 +385,7 @@
     }
 
     .general--wrapper {
-        padding: 0 30
+        padding: 0 30px;
     }
 
     .section__main--container--item {
