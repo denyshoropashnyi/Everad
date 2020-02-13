@@ -1,5 +1,5 @@
 @mixin sprite ($width, $height, $x, $y) {
-    background: url(../../../dist/media/icons/sprite.png) no-repeat $x $y;
+    background: url(../../dist/media/icons/sprite.png) no-repeat $x $y;
     width: $width;
     height: $height;
 }
