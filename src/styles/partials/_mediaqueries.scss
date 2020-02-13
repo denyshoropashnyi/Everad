@@ -1,67 +1,33 @@
-@include for-phone-up {
+//  .section-main::after {
+//      background: green;
+//      color: blue;dd
+//      z-index: 50;
+//      ;
+//  }
+
+
+@include for-big-desktop-up {
     .section__container__wrapper {
-        max-width: 768px;
-        // overflow-x: hidden;
+        max-width: 1200px;
     }
+}
 
-    .section-main__header__container {
-        flex-direction: column;
-    }
-
-    // .section-main__header-list {}
-
-    .section-main__header-li {
-        flex-direction: column;
-    }
-
-    .section-main__header-text {
-        margin-left: 0;
-    }
-
-    .section__footer--ad {
-        width: auto;
-    }
-
-    .section__main--applying--set {
-        margin-bottom: 50px;
-    }
-
-    .section__footer__text--ad {
-        font-size: 17px;
-        justify-content: left;
-        margin-left: 10px;
-    }
-
+@include for-desktop-up {
     .section__container__wrapper {
-        flex-direction: column;
+        max-width: 1170px;
+        overflow-x: hidden;
     }
 
-    .section__footer::after {
-        top: -43px;
+    .section-main__main-product__pics-container {
+        left: 0;
     }
 
-    .section__main--applying--tabs {
-        width: 300px;
+    .section__header {
+        margin-top: 80px;
     }
 
-    .section__main--applying--container {
-        align-items: center;
-    }
-
-    .section__main--applying--water {
-        height: 400px;
-        position: absolute;
-        left: -71px;
-        bottom: 125px;
-        right: 0;
-    }
-
-    .section__main--applying {
-        margin: 10px;
-    }
-
-    .section-dangerous__main--var--container::after {
-        left: 2%;
+    .company-info__wrap {
+        z-index: 1;
     }
 }
 
@@ -101,7 +67,7 @@
     }
 
     .section-dangerous__main--var--container::before {
-        right: 116px;
+        left: 188px;
     }
 
     .section-dangerous__main--var--container {
@@ -147,42 +113,321 @@
     }
 }
 
-
-
-
-@include for-desktop-up {
+@include for-phone-up {
     .section__container__wrapper {
-        max-width: 1170px;
-        overflow-x: hidden;
+        max-width: 768px;
+        // overflow-x: hidden;
     }
 
-    .section-main__main-product__pics-container {
-        left: 0;
+    .section-main__header__container {
+        flex-direction: column;
     }
 
-    .section__header {
-        margin-top: 80px;
+    .section-main__header-list {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
     }
 
-    .company-info__wrap {
-        z-index: 1;
+    .section-main__header-li {
+        flex-direction: column;
+
+        & .section-main__header-text {
+            font-size: 14px;
+        }
+    }
+
+    // .section-main__header-list {}
+
+    .section-main__header-li {
+        flex-direction: column;
+    }
+
+    .section-main__header-text {
+        margin-left: 0;
+    }
+
+    .section__footer--ad {
+        width: auto;
+    }
+
+    .section__main--applying--set {
+        margin-bottom: 50px;
+    }
+
+    .section__footer__text--ad {
+        font-size: 17px;
+        justify-content: left;
+        margin-left: 10px;
+    }
+
+    .section__container__wrapper {
+        flex-direction: column;
+    }
+
+    .section__footer::after {
+        top: -43px;
+    }
+
+    .section__main--applying--tabs {
+        width: 300px;
+    }
+
+    .section__main--applying--container {
+        align-items: center;
+    }
+
+    .section__main--applying--water {
+        height: 300px;
+        position: absolute;
+        left: -71px;
+        bottom: 125px;
+        right: 0;
+    }
+
+    .section__main--applying {
+        margin: 10px;
+    }
+
+    .section-dangerous__main--var--container::after {
+        left: 2%;
     }
 }
 
-@include for-big-desktop-up {
+@include for-phone-only {
     .section__container__wrapper {
-        max-width: 1200px;
+        max-width: 320px;
+        // overflow-x: hidden;
+    }
+
+    .section-main__dmain-product__pics-container {
+        display: none;
+    }
+
+    .main-product--img-5 {
+        display: none;
+    }
+
+    .figure-arc {
+        display: none;
+    }
+
+
+    .main-product--img-2 {
+        &.product-pic {
+            display: none;
+        }
+
+        // display: none;
+        bottom: 10px;
+    }
+
+    .section-main__header-list {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .section-main__main-li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-main__main-li--circle {
+        margin: 10px 0;
+    }
+
+    .section-arguments::after {
+        display: none;
+    }
+
+    .section-main__main {
+        flex-direction: column-reverse;
+    }
+
+    .section-main__header__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-main__header-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-main__header-li {
+        margin: 10px 0;
+    }
+
+    .main-form {
+        width: 100%;
+    }
+
+    .main-form__fieldset {
+        height: auto;
+    }
+
+    .section-main__main-title {
+        font-size: 20px;
+    }
+
+    .section-main__main-title--small {
+        font-size: 16px;
+    }
+
+    .section-main__main-about {
+        right: auto;
+        text-align: center;
     }
 }
 
+.section-main__main-li--text {
+    width: 95%;
+    font-size: 16px;
+    text-align: left;
+}
 
+.section-main__main-li--circle {
+    margin: 0 8px;
+}
 
+.section-main__main-product__pics {
+    display: none;
+}
 
+.section-main__main {
+    margin-bottom: 50px;
 
+}
 
-//  .section-main::after {
-//      background: green;
-//      color: blue;dd
-//      z-index: 50;
-//      ;
-//  }
+.section-title--dark {
+    font-size: 22px;
+}
+
+.section__header--subtitle {
+    font-size: 16px;
+}
+
+.section__main--container--item {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-dangerous__main--var--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-dangerous__main--var--container::after {
+    right: 61px;
+    top: -23px;
+}
+
+.container-allergy::before {
+    right: 44px;
+}
+
+.section-dangerous--text {
+    margin: 40px 0;
+}
+
+.company-info__text {
+    font-size: 36px;
+}
+
+.container-amputation::before,
+.container-organ_damage::before,
+.container-allergy::before {
+    right: 44px;
+}
+
+.section-arguments {
+    margin-top: 30px;
+
+}
+
+.section__footer {
+    margin-top: 20px;
+}
+
+.section__footer--arguments {
+    height: 194px;
+}
+
+.section__footer--text {
+    width: 88%;
+}
+
+.section__footer--arguments {
+    height: 341px;
+}
+
+.section-dangerous--desc {
+    margin-left: 0;
+}
+
+.section__main__container--ad {
+    flex-wrap: wrap;
+}
+
+.section__footer--ad {
+    height: auto;
+    padding: 10px;
+}
+
+.section__ad {
+    margin-top: 13px;
+}
+
+.section__main__container--ad div:nth-child(n)::after {
+    display: none;
+}
+
+.section__container__wrapper--section__applying {
+    margin-top: 30px;
+}
+
+.section__ad .section__header--subtitle--ad {
+    margin-bottom: 30px;
+}
+
+.section__main--applying--water,
+.section__main--applying--tabs {
+    display: none;
+}
+
+.section__header--title--ad,
+.section__header--title--highlight {
+    font-size: 22px;
+}
+
+.section-title--dark .section__header--title--ad {
+    font-size: 20px;
+}
+
+.section__ad .section__header--title--ad {
+    font-size: 22px;
+
+    flex-direction: column;
+    font-size: 18px;
+    height: auto;
+}
+
+.wrap-all-section__main--container--item--arguments {
+    flex-wrap: wrap;
+}
+
+.section__footer--ad {
+    width: auto;
+}
+
+.section__footer__text--ad {
+    width: auto;
+    font-size: 16px;
+    height: auto;
+    align-items: center;
+}
+
+.section__footer__text--highlight--ad {
+    font-size: 18px;
+}

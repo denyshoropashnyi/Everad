@@ -20,26 +20,26 @@
     }
 }
 
-// @mixin for-phone-only {
-//     @media (max-width: 599px) {
-//         @content;
-//     }
-// }
+@mixin for-phone-only {
+    @media (max-width: 320px) {
+        @content;
+    }
+}
 
 @mixin for-phone-up {
-    @media (max-width: 1024px) {
+    @media (min-width: 321px) and (max-width: 640px) {
         @content;
     }
 }
 
 @mixin for-tablet-up {
-    @media (max-width: 1190px) {
+    @media (min-width: 641px) and (max-width: 1190px) {
         @content;
     }
 }
 
 @mixin for-desktop-up {
-    @media (min-width: 1200px) {
+    @media (min-width: 1200px) and (max-width: 1790px) {
         @content;
     }
 }
