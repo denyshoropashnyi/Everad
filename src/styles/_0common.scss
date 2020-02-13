@@ -11,12 +11,9 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     background-image: -webkit-gradient(linear, right top, left top, from(#e9f5f7), color-stop(1%, #e9f5f7), color-stop(51%, #f8fdfe), to(#e9f5f7));
     background-image: linear-gradient(to left, #e9f5f7 0%, #e9f5f7 1%, #f8fdfe 51%, #e9f5f7 100%);
-
-
 }
 
 .section__container__wrapper {
-    // max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -33,7 +30,7 @@ body {
     &__logo {
         height: 56px;
         width: 81px;
-        background: url(dist/media/icons/company-logo.png) no-repeat;
+        background: url(dist/media/company-logo.png) no-repeat;
 
         &-half {
             height: 54px;
