@@ -278,9 +278,33 @@
 
 @include for-phone-up {
     .section__container__wrapper {
-        max-width: 768px;
+        max-width: 630px;
         overflow-x: hidden;
     }
+
+    .main-product--img-5 {
+        display: none;
+    }
+
+    .section-main__main {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .section__main__container--ad div:nth-child(n)::after {
+        display: none;
+    }
+
+    .section__main--container--body {
+        height: auto;
+    }
+
+
+    .section__main--container--header {
+        padding: 0px;
+    }
+
 
     .section-main__header__container {
         -webkit-box-orient: vertical;
@@ -368,6 +392,41 @@
     .section-dangerous__main--var--container::after {
         left: 2%;
     }
+
+    .section__main--container--item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-dangerous__main--var--container::after {
+        display: none;
+    }
+
+    .section-main__main {
+        justify-content: center;
+    }
+
+    .section-dangerous--text {
+        height: auto;
+    }
+
+    .section__main--container--item {
+        margin: 0;
+    }
+
+    .wrap-all-section__main--container--item--arguments {
+        flex-wrap: wrap;
+    }
+
+    .section__footer--arguments {
+        height: auto;
+    }
+
+    .section__main__container--ad {
+        flex-wrap: wrap;
+    }
+
 }
 
 @include for-tablet-up {
