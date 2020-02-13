@@ -184,14 +184,11 @@
   .section__footer {
     margin-top: 20px;
   }
-  .section__footer--arguments {
-    height: 194px;
-  }
   .section__footer--text {
     width: 88%;
   }
   .section__footer--arguments {
-    height: 341px;
+    height: 378px;
   }
   .section-dangerous--desc {
     margin-left: 0;
@@ -2125,14 +2122,11 @@ ul {
   .section__footer {
     margin-top: 20px;
   }
-  .section__footer--arguments {
-    height: 194px;
-  }
   .section__footer--text {
     width: 88%;
   }
   .section__footer--arguments {
-    height: 341px;
+    height: 378px;
   }
   .section-dangerous--desc {
     margin-left: 0;
