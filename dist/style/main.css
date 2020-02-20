@@ -630,7 +630,7 @@ body {
   position: absolute;
   bottom: 73%;
   right: 46%;
-  background: url(../../../dist/media/icons/sprite.png) no-repeat -5px -399px;
+  background: url(../../dist/media/icons/sprite.png) no-repeat -5px -399px;
   width: 68px;
   height: 68px;
   -webkit-box-shadow: -50px 0px 0px 0px #ffffff, 40px 0px 0px 0px #ffffff;
@@ -719,25 +719,25 @@ ul {
 }
 
 .section-main__sprite--rating {
-  background: url(../../../dist/media/icons/sprite.png) no-repeat -5px -75px;
+  background: url(../../dist/media/icons/sprite.png) no-repeat -5px -75px;
   width: 65px;
   height: 39px;
 }
 
 .section-main__sprite--recommendation {
-  background: url(../../../dist/media/icons/sprite.png) no-repeat -5px -242px;
+  background: url(../../dist/media/icons/sprite.png) no-repeat -5px -242px;
   width: 49px;
   height: 41px;
 }
 
 .section-main__sprite--clients {
-  background: url(../../../dist/media/icons/sprite.png) no-repeat -5px -30px;
+  background: url(../../dist/media/icons/sprite.png) no-repeat -5px -30px;
   width: 64px;
   height: 35px;
 }
 
 .section-main__sprite--car {
-  background: url(../../../dist/media/icons/sprite.png) no-repeat -5px -5px;
+  background: url(../../dist/media/icons/sprite.png) no-repeat -5px -5px;
   width: 27px;
   height: 15px;
 }
@@ -1178,7 +1178,7 @@ ul {
 }
 
 .main-form__footer--sec {
-  background: url(../../../dist/media/icons/sprite.png) no-repeat -5px -293px;
+  background: url(../../dist/media/icons/sprite.png) no-repeat -5px -293px;
   width: 19px;
   height: 20px;
 }
